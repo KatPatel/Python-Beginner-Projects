@@ -4,8 +4,8 @@ import numpy as np
 
 choice=input("enter c for colour image and g for grey image")
 
-Image2= cv.imread("OIP2.jpg")
-greyscale2= cv.imread("OIP2.jpg",0)
+Image2= cv.imread("img.jpg")
+greyscale2= cv.imread("img.jpg",0)
 #print("image type:",type(Image2))
 #print("Image Shape:",Image2.shape)
 if choice=='c':
