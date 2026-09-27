@@ -1,6 +1,7 @@
+# This is not RGB format as many people knpw it as but in this code it is BGR format
 import cv2 as cv
 import numpy as np
-img=cv.imread("OIP.jpg")
+img=cv.imread("img.jpg")
 b,g,r=cv.split(img)
 zeros=np.zeros_like(b)
 blue_img=cv.merge([b,zeros,zeros])
