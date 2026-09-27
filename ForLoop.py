@@ -2,7 +2,7 @@
 import cv2 as cv
 import numpy as np
 
-images=["OIP2.jpg","OIP.jpg","OIP3.jpg","OIP4.jpg", "Grey OIP"]
+images=["img.jpg","img2.jpg","img3.jpg","img4.jpg", "img5.jpg"]
 for i in range(5):
     for j in images:
         img=cv.imread(j)
