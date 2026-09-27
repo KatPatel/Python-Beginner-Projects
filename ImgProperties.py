@@ -1,6 +1,6 @@
 import cv2 as cv
 import numpy as np
-img=cv.imread("OIP2.jpg")
+img=cv.imread("img.jpg")
 cv.imshow('Image',img)
 
 print("The shape of the images")
