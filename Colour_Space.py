@@ -1,3 +1,4 @@
+# This code converts an image into a greyscale image
 import cv2 as cv
 import numpy as np
 img=cv.imread("OIP.jpg")
