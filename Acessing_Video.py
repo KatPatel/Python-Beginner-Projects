@@ -1,6 +1,6 @@
 import cv2 as cv
 import numpy as np
-capture=cv.VideoCapture("piano.mp4")
+capture=cv.VideoCapture("video.mp4")
 while True:
     ret,frame=capture.read()
     if not ret:
